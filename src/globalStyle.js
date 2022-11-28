@@ -1,4 +1,7 @@
-:root {
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+  :root {
   /* Primary Pallete */
   --color-primary: #27ae60;
   --color-primary-50: #93d7af;
@@ -32,3 +35,5 @@
   box-sizing: border-box;
   list-style: none;
 }
+
+`;

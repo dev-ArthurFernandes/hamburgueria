@@ -1,12 +1,12 @@
 import { StyledInput } from "./styled";
 
-export const Input = ({ setFilter }) => {
+export const Input = ({ setSearch }) => {
   return (
     <>
       <StyledInput
         placeholder="Digitar Pesquisa"
         nama="Search"
-        onChange={(event) => setFilter(event.target.value)}
+        onChange={(event) => setSearch(event.target.value)}
       />
     </>
   );

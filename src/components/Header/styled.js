@@ -9,6 +9,8 @@ export const StyledHeader = styled.header`
 
   background-color: var(--color-grey-0);
 
+  position: sticky;
+
   @media (max-width: 600px) {
     height: 139px;
   }
